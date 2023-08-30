@@ -11,7 +11,7 @@ const Formulario = () => {
       setAlerta('Todos los campos son obligatorios')
       return
     }
-
+		setAlerta('')
     consultarClima(busqueda)
 	};
 
@@ -45,7 +45,7 @@ const Formulario = () => {
 						<option value='AR'>Argentina </option>
 						<option value='CO'>Colombia </option>
 						<option value='ES'>España </option>
-						<option value='PE'>Perú </option>
+						<option value='IT'>Italia </option>
 					</select>
 				</div>
 
